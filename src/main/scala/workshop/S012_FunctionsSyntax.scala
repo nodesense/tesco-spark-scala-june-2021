@@ -16,9 +16,13 @@ object S012_FunctionsSyntax extends  App {
   // (Int, Int) => Int - function/Variable Type, accept 2 args, return 1 result
   // a -b - expression
   val sub: (Int, Int) => Int = (a, b) => a - b
+  val sub2: Function2[Int, Int, Int] = (a, b) => a - b
 
   println(add(10, 20))
   println(sub(10, 20))
   println(add.apply(10, 20))
   println(sub.apply(10, 20))
+  println(sub2(10, 20))
+  println(sub2.apply(10, 20))
+
 }
