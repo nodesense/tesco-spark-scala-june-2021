@@ -45,6 +45,8 @@ nano ~/.bash_profile
 Paste below
 ```
 export SPARK_HOME=/opt/spark-2.4.7-bin-hadoop2.7
+
+export JAVA_HOME=$(/usr/libexec/java_home)
 ```
 
 to save the content, 
@@ -60,6 +62,5 @@ to start spark-shell, in mac terminal
 ```
 $SPARK_HOME/bin/spark-shell
 
-export JAVA_HOME=$(/usr/libexec/java_home)
 
 ```
