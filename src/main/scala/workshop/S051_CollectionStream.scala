@@ -12,6 +12,4 @@ object S051_CollectionStream extends  App {
   //stream2.take(4).print("\r\n") // print first 2 numbers
 
   println("Min is " , stream2.min)
-
-
 }
