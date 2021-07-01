@@ -37,9 +37,9 @@ sudo chmod 777 /opt/spark-2.4.7-bin-hadoop2.7
 Set the environment Variable
 
 ```
-touch ~/.base_profile
+touch ~/.bash_profile
 
-nano ~/.base_profile
+nano ~/.bash_profile
 ```
 
 Paste below
@@ -59,4 +59,7 @@ to start spark-shell, in mac terminal
 
 ```
 $SPARK_HOME/bin/spark-shell
+
+export JAVA_HOME=$(/usr/libexec/java_home)
+
 ```
