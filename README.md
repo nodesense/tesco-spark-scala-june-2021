@@ -42,6 +42,8 @@ touch ~/.bash_profile
 nano ~/.bash_profile
 ```
 
+
+
 Paste below
 ```
 export SPARK_HOME=/opt/spark-2.4.7-bin-hadoop2.7
@@ -53,11 +55,13 @@ to save the content,
 
 Press Ctrl + O
 
+Then press Enter key if it is asking to write the file...
+
 To exit the nano editor,
 
 Press Ctrl + X
 
-to start spark-shell, in mac terminal
+to start spark-shell, in new mac terminal
 
 ```
 $SPARK_HOME/bin/spark-shell

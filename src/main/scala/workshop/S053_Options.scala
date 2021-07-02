@@ -52,4 +52,22 @@ object S053_Options extends  App {
   println("min", results.min)
   println("max", results.max)
   println("sum", results.sum)
+
+
+
+  // option with far comprehension
+
+  val result = for {
+    a <- toInt("10")
+    b <- toInt("20")
+  } yield  a + b
+
+  println("Result is ", result) // Some(30)
+
+  val result2 = for {
+    a <- toInt("Inf")
+    b <- toInt("20")
+  } yield  a + b
+
+  println("result2 is ", result2) // None
 }
